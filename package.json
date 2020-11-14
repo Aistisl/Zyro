@@ -1,0 +1,33 @@
+{
+  "name": "zyro",
+  "version": "1.0.0",
+  "description": "Zyro login/logout automation",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aistisl/Zyro.git"
+  },
+  "keywords": [
+    "Zyro",
+    "login",
+    "logout",
+    "automation"
+  ],
+  "author": "Aistis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aistisl/Zyro/issues"
+  },
+  "homepage": "https://github.com/Aistisl/Zyro#readme",
+  "dependencies": {
+    "cypress": "^5.6.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

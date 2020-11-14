@@ -1,0 +1,8 @@
+{
+    "video": false,
+    "defaultCommandTimeout": 5000,
+    "PageLoadTimeout": 10000,
+    "ignoreTestFiles": ["*.js", "*.md"],
+    "viewportWidth": 1366,
+    "viewportHeight": 768
+}
