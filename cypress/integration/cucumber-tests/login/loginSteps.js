@@ -5,11 +5,8 @@ import LoginPage from './loginPage'
 
 Given('I open login page', () => {
     LoginPage.visit()
+    cy.SetcfduidCookie()
     LoginPage.clickSignIn()
-    cy.getCookie('__cfduid')
-    cy.getCookie('auth.strategy')
-    cy.getCookie('expowQ')
-    cy.getCookie('expk0A')
 })
 
 When('I fill username with {string}', username => {
