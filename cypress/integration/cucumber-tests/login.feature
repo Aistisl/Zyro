@@ -5,8 +5,8 @@ I want to succesfully log in and log out
 
 Scenario: Valid login
 Given I open login page
-When I fill username with /enter your username/
-And I fill password with /enter your password/
+When I fill username with 'username'
+And I fill password with 'password'
 And I click on submit button
 Then I should see user profile icon
 
