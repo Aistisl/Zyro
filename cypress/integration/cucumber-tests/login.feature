@@ -5,8 +5,8 @@ I want to succesfully log in and log out
 
 Scenario: Valid login
 Given I open login page
-When I fill username with 'aistisl@outlook.com'
-And I fill password with 'letmein1337'
+When I fill username with /enter your username/
+And I fill password with /enter your password/
 And I click on submit button
 Then I should see user profile icon
 
