@@ -6,6 +6,7 @@ import LoginPage from './loginPage'
 Given('I open login page', () => {
     LoginPage.visit()
     cy.SetcfduidCookie()
+    cy.wait(10000)
     LoginPage.clickSignIn()
 })
 
