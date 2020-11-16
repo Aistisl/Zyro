@@ -6,7 +6,6 @@ import LoginPage from './loginPage'
 Given('I open login page', () => {
     LoginPage.visit()
     cy.SetcfduidCookie()
-    cy.wait(10000)
     LoginPage.clickSignIn()
 })
 
@@ -20,6 +19,7 @@ When('I fill password with {string}', password => {
 
 When('I click on submit button', () => {
     LoginPage.submit()
+    cy.wait(10000)
 })
 
 Then('I should see user profile icon', () => {
